@@ -1,0 +1,11 @@
+<%- include("partials/header"); -%>
+    <h1>Welcome to Daily Journal</h1>
+    <!-- <p><%= textMaster %></p> -->
+   <!-- <% console.log(posts); %> -->
+   <% for(var i = 0; i<posts.length;i++){ %>
+   <h1><%= posts[i].title %></h1>
+   <p><%= posts[i].content.substring(0,200) + "..."  %> </p>
+    <a href="posts/<%= posts[i].title %>"><button class="btn">Read more</button></a>
+
+  <% }; %>
+    <!-- <%- include("partials/footer"); -%> -->

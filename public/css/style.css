@@ -1,0 +1,36 @@
+
+.navbar{
+    background-color: rgb(195, 255, 255);
+}
+.navbar-brand a{
+    font-size: 26px !important;
+}
+.nav-link{
+    font-size: 20px;
+}
+
+h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+button{
+    margin-top: 10px;
+}
+label{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+   background-color: rgb(26, 90, 186); 
+   color: white;
+}
+.btn:hover, .btn:focus{
+    background-color: rgb(8, 44, 98);
+    color: white;
+    
+}
